@@ -1,0 +1,11 @@
+@use "../util" as *;
+
+.container {
+  padding: 0 2.5rem;
+  max-width: 111rem;
+  margin: 0 auto 4.6rem;
+
+  @include breakpoint(large) {
+    padding: 0;
+  }
+}
